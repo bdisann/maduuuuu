@@ -1,19 +1,23 @@
-#hero {
+body {
   position: relative;
-  overflow: hidden;
-  height: 500px;
-  background-image: url("./images/background_1.jpeg");
-  background-position: bottom;
-  background-size: cover;
 }
-#hero::after {
-  content: "";
-  position: absolute;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
   top: 0;
-  bottom: 0;
-  left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.435);
+  left: 0;
+  box-shadow: 0 0 13px 5px #00000065;
+  z-index: 1000;
 }
-.overlay {
+.questions {
+  margin-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.image-question {
+  width: 100%;
 }
