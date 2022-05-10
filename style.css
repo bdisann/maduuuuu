@@ -21,3 +21,7 @@ body {
 .image-question {
   width: 100%;
 }
+
+.warn_list {
+  list-style-type: none;
+}
