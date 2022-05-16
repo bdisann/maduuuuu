@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ath-thoifah</title>
+    <meta
+      name="facebook-domain-verification"
+      content="ird4vpddhx4wd8yooyn3q1gqzw6l1l"
+    />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "379722770778360");
+      window.fbq = fbq;
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=379722770778360&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <script>
+      document.addEventListener("readystatechange", async (event) => {
+        if (document.readyState === "interactive") {
+          await window.fbq("trackCustom", "ON LOAD");
+        }
+        if (document.readyState === "complete") {
+          await window.fbq("trackCustom", "WHATSAPP");
+          console.log("success!!");
+          const url =
+            "https://wa.me/6285161461161?text=" +
+            encodeURI(
+              "Assalamualaikum admin, saya tertarik dengan madu promil. Mohon info mengenai produknya ya"
+            );
+
+          window.open(url, "_self");
+
+          const timer = setTimeout(() => {
+            window.close();
+          }, 5000);
+        }
+      });
+    </script>
+  </body>
+</html>
